@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Contact</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid m-0 py-2 bg-success">
+      <div class="row">
+        <div class="col-4">
+          <img src="Images/CI Logo.png" alt="CI Logo">
+        </div>
+        <h1 class="align-text-center">Captivate Interiors</h1>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="About.html">About</a>
+        <a class="nav-item nav-link active" href="Contact.html">Contact</a>
+        <a class="nav-item nav-link" href="Shop.html">Shop</a>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <br>
+  <div style="font-size: large;font-weight: bold;border-style: inset;" id="info">
+    <h2 id="1"> Contact Information </h2>
+    <br>
+    <p id="2">Address: Unit 22 Upper Queen Street, Auckland CBD</p>
+    <p id="3"> Contact Number: 021 123 4567</p>
+    <p id="4">Email Addres:contact@captivateinteriors.co.nz</p>
+    <p id="5">Fax Number:09 331 2425</p>
+  </div>
+  <br>
+  <button onclick="colour()">Change Size and Colour</button>
+  <button onmouseover="right()">Align Right</button>
+
+  <script>
+    function colour() {
+      document.getElementById("info").style = "font-size:larger; font-weight: bold; border-style:insect; color:red";
+    }
+    function right() {
+      document.getElementById("info").style = "text-align: right; border-style:insect; font-size:larger; font-weight: bold;";
+    }
+
+  </script>
+
+  <!--Form-->
+  <div>
+    <form>
+      <div class="row">
+        <div class="form-group col-md-6"></div>
+        <div class="col">
+          <label for="exampleFormControlInput1">First Name</label>
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <label for="exampleFormControlInput1">Last Name</label>
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-md-6"></div>
+        <div class="col">
+          <div class="form-group">
+            <div class="form-group col-md-6"></div>
+            <label for="exampleFormControlInput1">Email Address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <div class="form-group col-md-6"></div>
+            <label for="exampleFormControlInput1">Subject</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <br>
+          <br>
+          <br>
+    </form>
+  </div>
+  </div>
+  </div>
+
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+          href="https://www.facebook.com"><img
+            src="Images/facebooklogo.jpg"
+            alt="facebook logo"></a>
+        <i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+          href="https://www.twitter.com"><img
+            src="Images/twitterlogo.jpg"
+            alt="twitter logo"></a>
+        <i class="fab fa-twitter"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+          href="https://www.instagram.com/"><img
+            src="Images/instagramlogo.jpg"
+            alt="instagram logo"></a>
+        <i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+          href="https://www.linkedin.com/"><img
+            src="Images/linkedinlogo.jpg"
+            alt="linkedin logo"></a>
+        <i class="fab fa-linkedin-in"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+  </footer>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
